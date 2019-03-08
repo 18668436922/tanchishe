@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.startPage {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.startBtn {
+    background-image: url(./startGame.png);
+    height: 40px;
+    width: 160px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.left-side {
+    width: 16%;
+    position: absolute;
+    height: 100%;
+}
+
+.left-side img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.main {
+    position: absolute;
+    left: 17%;
+    width: 70%;
+    height: 90%;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.score {
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 10%;
+    top: 24%;
+    border: 2px solid blue;
+}
+
+.loser {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
+}
+
+.con {
+    background-image: url(./gameover.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url(./img/close.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.loserScore {
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.food {
+    background-image: url(./img/apple.png);
+    background-size: 100% 100%;
+}
+
+.head {
+    background-image: url(./img/head.png);
+    background-size: 100% 100%;
+}
+
+.body {
+    background-image: url(./img/body.png);
+    background-size: 100% 100%;
+}
+
+.loserScore {
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
